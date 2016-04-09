@@ -1,0 +1,17 @@
+{
+  "name": "pfsense-session",
+  "version": "0.1.0",
+  "description": "Session client for pfSense",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Austin Keeley",
+  "license": "MIT",
+  "dependencies": {
+    "form-scraper": "0.0.4",
+    "promisified-request": "0.0.3",
+    "request": "^2.70.0",
+    "underscore": "^1.8.3"
+  }
+}
