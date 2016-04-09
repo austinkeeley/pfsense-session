@@ -53,8 +53,25 @@ var login = function(hostname, username, password, cb) {
   function(err) {
     cb(err, null);
   });
+};
 
+/**
+ * @description Logs out of a session
+ * @param session The session object for the session to end
+ * @param cb Callback function
+ */
+var logout = function(session, cb) {
 
+  request.get({
+    url: 'http://' + session.hostname + '/index.php?logout',
+    headers: {
+      'Cookie': 'PHPSESSID' + session.sessionCookie
+    }
+  },
+  function(err, response) {
+    if (err) { cb(err, null); }
+    else { cb(null, response.statusCode); }
+  });
 };
 
 /**
@@ -84,5 +101,6 @@ var getSessionCookie = function(response) {
 };
 
 module.exports = {
-  login: login
+  login: login,
+  logout: logout
 };
