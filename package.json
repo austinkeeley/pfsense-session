@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Austin Keeley",
+  "repository": "austinkeeley/pfsense-session",
   "license": "MIT",
   "dependencies": {
     "form-scraper": "0.0.4",
