@@ -1,6 +1,6 @@
 {
   "name": "pfsense-session",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Session client for pfSense",
   "main": "index.js",
   "scripts": {

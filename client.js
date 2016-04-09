@@ -65,7 +65,7 @@ var logout = function(session, cb) {
   request.get({
     url: 'http://' + session.hostname + '/index.php?logout',
     headers: {
-      'Cookie': 'PHPSESSID' + session.sessionCookie
+      'Cookie': 'PHPSESSID=' + session.sessionCookie
     }
   },
   function(err, response) {
