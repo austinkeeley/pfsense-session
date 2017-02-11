@@ -1,6 +1,6 @@
 {
   "name": "pfsense-session",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Session client for pfSense",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "repository": "austinkeeley/pfsense-session",
   "license": "MIT",
   "dependencies": {
-    "form-scraper": "0.0.4",
+    "form-scraper": "https://github.com/austinkeeley/form-scraper/archive/v0.0.5.tar.gz",
     "promisified-request": "0.0.3",
     "request": "^2.70.0",
     "underscore": "^1.8.3"
