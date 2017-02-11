@@ -10,8 +10,8 @@
   "repository": "austinkeeley/pfsense-session",
   "license": "MIT",
   "dependencies": {
-    "form-scraper": "https://github.com/austinkeeley/form-scraper/archive/v0.0.5.tar.gz",
-    "promisified-request": "0.0.3",
+    "form-scraper": "https://github.com/austinkeeley/form-scraper/archive/v0.0.6.tar.gz",
+    "promisified-request": "https://github.com/austinkeeley/promisified-request/archive/v0.0.4.tar.gz",
     "request": "^2.70.0",
     "underscore": "^1.8.3"
   }
